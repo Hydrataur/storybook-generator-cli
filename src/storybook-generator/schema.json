@@ -1,6 +1,6 @@
 {
 	"$schema": "http://json-schema.org/schema",
-	"$id": "SubscriptionComponentSchema",
+	"$id": "StorybookGeneratorSchema",
 	"type": "object",
 	"properties": {
 		"name": {
