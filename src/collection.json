@@ -6,6 +6,80 @@
       "description": "A blank schematic.",
       "factory": "./storybook-generator/index#storybookGenerator",
       "schema": "./storybook-generator/schema.json"
+    },
+    "app-shell": {
+      "description": "A blank schematic.",
+      "factory": "./storybook-generator/index#createAppShell"
+    },
+    "application": {
+      "description": "A blank schematic.",
+      "factory": "./storybook-generator/index#createApplication",
+      "schema": "./storybook-generator/schema.json"
+    },
+    "class": {
+      "description": "A blank schematic.",
+      "factory": "./storybook-generator/index#createClass",
+      "schema": "./storybook-generator/schema.json"
+    },
+    "directive": {
+      "description": "A blank schematic.",
+      "factory": "./storybook-generator/index#createDirective",
+      "schema": "./storybook-generator/schema.json"
+    },
+    "enum": {
+      "description": "A blank schematic.",
+      "factory": "./storybook-generator/index#createEnum",
+      "schema": "./storybook-generator/schema.json"
+    },
+    "guard": {
+      "description": "A blank schematic.",
+      "factory": "./storybook-generator/index#createGuard",
+      "schema": "./storybook-generator/schema.json"
+    },
+    "interceptor": {
+      "description": "A blank schematic.",
+      "factory": "./storybook-generator/index#createInterceptor",
+      "schema": "./storybook-generator/schema.json"
+    },
+    "interface": {
+      "description": "A blank schematic.",
+      "factory": "./storybook-generator/index#createInterface",
+      "schema": "./storybook-generator/schema.json"
+    },
+    "library": {
+      "description": "A blank schematic.",
+      "factory": "./storybook-generator/index#createLibrary",
+      "schema": "./storybook-generator/schema.json"
+    },
+    "module": {
+      "description": "A blank schematic.",
+      "factory": "./storybook-generator/index#createModule",
+      "schema": "./storybook-generator/schema.json"
+    },
+    "pipe": {
+      "description": "A blank schematic.",
+      "factory": "./storybook-generator/index#createPipe",
+      "schema": "./storybook-generator/schema.json"
+    },
+    "resolver": {
+      "description": "A blank schematic.",
+      "factory": "./storybook-generator/index#createResolver",
+      "schema": "./storybook-generator/schema.json"
+    },
+    "service": {
+      "aliases": ["s"],
+      "description": "A blank schematic.",
+      "factory": "./storybook-generator/index#createService",
+      "schema": "./storybook-generator/schema.json"
+    },
+    "service-worker": {
+      "description": "A blank schematic.",
+      "factory": "./storybook-generator/index#createServiceWorker"
+    },
+    "web-worker": {
+      "description": "A blank schematic.",
+      "factory": "./storybook-generator/index#createWebWorker",
+      "schema": "./storybook-generator/schema.json"
     }
   }
 }
