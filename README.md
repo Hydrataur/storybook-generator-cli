@@ -6,7 +6,7 @@ It does so by generating the necessary file, along with a small skeleton to be f
 In order to use this you must simply run the command:  
 `npm install --save-dev storybook-generator-cli`  
 After this, we must register this within our angular.json, which can be done by running the following command:  
-`ng config cli.defaultCollection storybook-generator`  
+`ng config cli.defaultCollection storybook-generator-cli`  
 
 And that's it, all done.
 Happy coding.
