@@ -1,0 +1,11 @@
+{
+  "$schema": "../node_modules/@angular-devkit/schematics/collection-schema.json",
+  "schematics": {
+    "component": {
+      "aliases": ["c"],
+      "description": "A blank schematic.",
+      "factory": "./storybook-generator/index#storybookGenerator",
+      "schema": "./storybook-generator/schema.json"
+    }
+  }
+}
